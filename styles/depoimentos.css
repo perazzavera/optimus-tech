@@ -1,0 +1,40 @@
+.depoimentos {
+    background-color: rgb(195, 25, 25, 0.05);
+    margin: 5em;
+    border-radius: 16px;
+    text-align: center;
+    padding: 4em;
+}
+
+.depoimentos__titulo-secundario {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.depoimentos__titulo {
+    font-size: 36px;
+    padding: 0.5em 0 1em 0;
+}
+
+.depoimentos__nome {
+    padding: 0.3em 0;
+}
+
+.depoimentos__funcao {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+@media screen and (max-width: 768px) {
+    .depoimentos {
+        margin: 1em;
+        padding: 2em 1em;
+    }
+
+    .depoimentos__titulo {
+        font-size: 1.5rem;
+        padding: 1em 0;
+    }
+}

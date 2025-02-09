@@ -1,0 +1,85 @@
+/*terceira sessão*/
+
+.vagas {
+    text-align: center;
+}
+
+.vagas__cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vagas__titulo-secundario {
+    font-size: 14px;
+    color: var(--vermelho);
+    background-color: rgb(142, 36, 36, 0.1);
+    padding: 0.5em 1em;
+    border-radius: 16px;
+}
+
+.vagas__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0.3em 0 0.8em 0;
+}
+
+.vagas__texto {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+.vagas__imagem {
+    padding-top: 4em;
+    width: 90%;
+}
+
+
+.vagas__container {
+    width: 50%;
+}
+
+.vagas__setor {
+    text-align: left;
+    font-size: 20px;
+    margin: 3em 0 0.5em 0;
+}
+.vagas__itens {
+    text-align: left;
+    border: 2px solid var(--cinza-claro);
+    border-radius: 16px;
+    padding: 1.5em;
+    margin: 1.5em 0;
+}
+
+.vagas__info {
+    display: flex;
+    gap: 3em;
+}
+
+.vagas__funcao {
+    font-size: 18px;
+    padding-bottom: 2em;
+}
+
+.vagas__descricao {
+    color: var(--cinza);
+    gap: 1em;
+}
+
+@media screen and (max-width: 768px) {
+    .vagas {
+        margin: 0 1em;
+    }
+
+    .vagas__titulo {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .vagas__container {
+        margin: 0;
+        width: auto;
+    }
+}

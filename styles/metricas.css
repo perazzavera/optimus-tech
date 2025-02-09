@@ -1,0 +1,47 @@
+/*segunda sessão*/ 
+
+.metricas{
+    display: flex;
+    margin: 0 2em 6em 2em;
+    justify-content: space-between;
+}
+
+.metricas__container {
+    width: 25%;
+    padding: 0 4.5em;
+}
+
+.metricas__numeros {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.metricas__legenda {
+    font-size: 20px;
+    color: var(--preto);
+    padding: 0.5em 0 0.3em 0;
+}
+
+.metricas__texto {
+    color: var(--cinza);
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    .metricas{
+        display: flex;
+        flex-direction: column;
+        margin: 3em 1em;
+    }
+
+    .metricas__container {
+        padding: 1em 0;
+        width: auto;
+
+    }
+
+    .metricas__numeros {
+        font-size: 3rem;
+    }
+}
